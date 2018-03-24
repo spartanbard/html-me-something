@@ -7,7 +7,7 @@
     <body>
         <main>
             <header>
-                <h1>Oh, I'll HTML you something</h1>
+                <h1 id="top">Oh, I'll HTML you something</h1>
                 <h2>Confession Time</h2>
             </header>
             <p>I've been working with HTML and CSS for 15 years or so, so I didn't do a second of the prep work involving the HTML course on CodeCademy. I've only been digging into the Git stuff, because it's far more interesting and useful for me. The only downside is that now I'm expected to use a handful of HTML5 tags I haven't seen before. Shot myself in the foot with a rubber band gun there, but markup is simple as hell, so no biggie. :)</p>
@@ -23,24 +23,25 @@
             </ul>
             <p>I expected to have more snapshots for this. I guess I didn't need to put that in a list. And my bullets have paragraphs in them. I know that looks dumb. I don't care right now.</p>
             <p>Just for fun, here's <a target="blank_" href="http://arthurpope.com/s/new">my current broken version of SwaggerSearch that actually attempts to use eBay's APIs and JSON</a>. Hopefully I'll have it working before long, now that I'm learning more about HTTP stuff. eBay provides a tutorial for using their APIs via HTTP using PHP, so I should be able to translate that to Python, I hope. I also need to abandon my archaic iframe approach, but it worked before, so in the spirit of MVP, I'm still working on it that way for now.</p>
+           
+           
+            <h2>An Article!</h2>
+            <p>I'm just copy/pasting my resume page code in here.</p>
             <article>
-                <header>
-                    <h2>An Article!</h2>
-                </header>
-                <p>I'm just copy/pasting my resume page code in here.</p>
-
                 <div id="resume">
-                    <h1>Arthur Pope</h1>
+                    <header>
+                        <h1>Arthur Pope</h1>
 
-                    <h2>Contact Information</h2>
+                        <h2>Contact Information</h2>
 
-                    <div id="ci">
-                        <p>307 Grand Ave<br />
-                        Festus, MO 63028<br />
-                        (636)674-9739<br />
-                        art@arthurpope.com</p>
-                        <p><a target="_blank" href="http://www.linkedin.com/in/arthurpope">Linkedin</a></p>
-                    </div>
+                        <div id="ci">
+                            <p>307 Grand Ave<br />
+                            Festus, MO 63028<br />
+                            (636)674-9739<br />
+                            art@arthurpope.com</p>
+                            <p><a target="_blank" href="http://www.linkedin.com/in/arthurpope">Linkedin</a></p>
+                        </div>
+                    </header>
 
 
                     <h2>Skills</h2>
@@ -205,18 +206,26 @@
             </article>
             <header>
                 <h2>HTML Entities</h2>
-                <p>Here's a fun story: For my work, we used to write eBay ads in spreadsheets so that I could enforce validation rules, and we ran into an issue where certain characters got al mangled up during the spreadsheet import into our listing program SixBit (previously Blackthorne). This usually happened when people tried copy/pasting things from the internet into their listings, or even when the spreadsheet converted things like fractions into actual fraction symbols. I solved the issue by converting these symbols to their corresponding entity codes automatically with some replace functions in the backend import conversion spreadsheet I built. Here is a list of the affected symbols we ran into most often:</p>
-                <ul>
-                    <li>&copy;</li>
-                    <li>&Omega;</li>
-                    <li>&reg;</li>
-                    <li>&trade;</li>
-                    <li>&hellip;</li>
-                    <li>&bull;</li>
-                    <li>&deg;</li>
-                    <li>&#8542;</li>
-                </ul>
+            </header>
+            <p>Here's a fun story: For my work, we used to write eBay ads in spreadsheets so that I could enforce validation rules, and we ran into an issue where certain characters got al mangled up during the spreadsheet import into our listing program SixBit (previously Blackthorne). This usually happened when people tried copy/pasting things from the internet into their listings, or even when the spreadsheet converted things like fractions into actual fraction symbols. I solved the issue by converting these symbols to their corresponding entity codes automatically with some replace functions in the backend import conversion spreadsheet I built. Here is a list of the affected symbols we ran into most often:</p>
+            <ul>
+                <li>&copy;</li>
+                <li>&Omega;</li>
+                <li>&reg;</li>
+                <li>&trade;</li>
+                <li>&hellip;</li>
+                <li>&bull;</li>
+                <li>&deg;</li>
+                <li>&#8542;</li>
+            </ul>
+
+            <p>Alright, I need to wrap this up. I'm hungry</p>
+            <img src="https://media.giphy.com/media/H9lwcQZAWHXW/giphy.gif" />
+
                             
         </main>
+        <footer>
+            <p><a href="#top">Back to top, bro.</a></p>
+        </footer>
     </body>
 </html>
